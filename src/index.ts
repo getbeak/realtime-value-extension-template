@@ -14,9 +14,9 @@ const extension: EditableRealtimeValue<Payload, Payload> = {
 	},
 
 	createDefaultPayload: async () => ({ value: [] }),
-	getValue: async (ctx, payload, recursiveSet) => {
+	getValue: async (ctx, payload) => {
 		// Use the BeakAPI to take the array of value parts, and parse them into a string
-		const parsed = await beakApi.parseValueParts(ctx, payload.value, recursiveSet);
+		const parsed = await beakApi.parseValueParts(ctx, payload.value);
 
 		// Take the parsed string and convert it to an integer
 		const integer = parseInt(parsed, 10) || 0;
