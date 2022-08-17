@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@getbeak/types-realtime-value@1.0.0-prerelease.8":
-  version "1.0.0-prerelease.8"
-  resolved "https://registry.yarnpkg.com/@getbeak/types-realtime-value/-/types-realtime-value-1.0.0-prerelease.8.tgz#770de8c9590bff8ea2f3a118bba6a5b4ae77e006"
-  integrity sha512-4VWiFxye42tsLY8z9SmBb6IZHpU7UEUW6tlFy4Xn9Xmd12KP+hKS1zeK2s/BteAUNkG7wklT2fKcwvSxRnapBw==
+"@getbeak/types-realtime-value@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@getbeak/types-realtime-value/-/types-realtime-value-1.0.0.tgz#1d7eab9a223c0aedb6f60214af59a87fd2734cb4"
+  integrity sha512-iibVGLFdga6mGm3asY6oi7UA4F/isExHbtSc2Fjqz4pybEpY4CVfAnbWAxWX4BkWKoiHpHXAf6YseWT+xYbdIA==
   dependencies:
-    "@getbeak/types" "1.0.0-prerelease.2"
+    "@getbeak/types" "1.0.0"
 
-"@getbeak/types@1.0.0-prerelease.2":
-  version "1.0.0-prerelease.2"
-  resolved "https://registry.yarnpkg.com/@getbeak/types/-/types-1.0.0-prerelease.2.tgz#aa4c25fbacb6b6e7bf342c4181afcbdfaef3a9cd"
-  integrity sha512-AGZDobjBINfQ3qmrrPbk3ZSaLmdDpEqP5V09WODAvRMA7tWP1Ved1E2Nh+09pgwlhIC3D305cwBPXr1P1j8E3w==
+"@getbeak/types@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@getbeak/types/-/types-1.0.0.tgz#329c1a93ab90d9e373e915b9997d8b630617e392"
+  integrity sha512-DZ6NfMcnnOjrFYWIQ1PzvB68emAImCICAoQgVVyw7JD36avn+sDkvpBp0FChJW8E5aeLYOvOuR4RteegBrFXdA==
 
 esbuild-android-64@0.14.42:
   version "0.14.42"
